@@ -5,7 +5,7 @@ function solution(a, b) {
 
     aData > bData ? 
         answer = parseInt(aData):
-        answer = parseInt(bData); 
+        answer = bData; 
     
     return answer;
 }
