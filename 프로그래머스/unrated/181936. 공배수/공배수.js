@@ -11,9 +11,10 @@ function solution(number, n, m) {
 //            answer = 1;
 //        }
 //    }
-
     if(number%n === 0 && number%m === 0){
         answer = 1;    
     }  
+//    number%n === 0 && number%m === 0?
+//        answer = 1:0;
     return answer;
 }
