@@ -5,9 +5,6 @@ function solution(num_list) {
     
     for(let i=0; i<num_list.length; i++) {
         multiplication *= num_list[i];
-    }
-    
-    for(let i=0; i<num_list.length; i++) {
         squared += num_list[i];
     }
     
