@@ -1,23 +1,22 @@
 function solution(n, control) {
     var answer = 0;
     let arr = control.split("");
-    
+    console.log(arr)
     for(let i=0; i < arr.length; i++){
-        switch (arr[i]){
-            case "w":
-                n += 1
-                break;
-            case "s":
-                n -= 1
-                break;
-            case "d":
-                n += 10
-                break;
-            case "a":
-                n -= 10
-                break;
+        if(arr[i] = "w"){
+            n += 1
+            console.log(arr[i])
+        } else if (arr[i] = "s"){
+            n -= 1
+        } else if (arr[i] = "d"){
+            n += 10
+        } else if(arr[i] = "a"){
+            n -= 10
         }
+        console.log(n)
+
     }    
     answer = n;
+    console.log(n)
     return answer;
 }
