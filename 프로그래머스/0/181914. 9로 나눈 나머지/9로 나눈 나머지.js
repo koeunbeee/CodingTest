@@ -1,8 +1,7 @@
 function solution(number) {
     var answer = 0;
-    let num = number.split('');
     let sum = 0;
-    for(let x of num){
+    for(let x of number){
         sum += x*1
     }
     answer = sum % 9
